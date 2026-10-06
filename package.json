@@ -1,0 +1,20 @@
+{
+  "name": "interview-practice",
+  "private": true,
+  "description": "Graded TypeScript coding exercises with tests, for getting back into hands-on coding before interviews.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test \"**/*.test.ts\"",
+    "test:1": "node --test \"01-warmup/*.test.ts\"",
+    "test:2": "node --test \"02-collections/*.test.ts\"",
+    "test:3": "node --test \"03-classic/*.test.ts\"",
+    "test:4": "node --test \"04-async/*.test.ts\"",
+    "test:5": "node --test \"05-practical/*.test.ts\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0"
+  }
+}
