@@ -20,7 +20,7 @@ limiters and messy input parsing.
 You need **Node.js 22.18 or later** (Node 24 recommended). Check with `node --version`.
 
 ```sh
-git clone <this repo>
+git clone https://github.com/Synchronium/interview-practice.git
 cd interview-practice
 npm install        # optional: only installs type definitions for your editor
 ```
@@ -106,3 +106,7 @@ All tests fail at first. That's expected.
   an alternative solution.
 - **Start an exercise over** with `git checkout -- <file>`.
 - **Keep your work separate:** fork the repo, or commit your solutions on your own branch.
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).

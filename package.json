@@ -1,6 +1,7 @@
 {
   "name": "interview-practice",
   "private": true,
+  "license": "MIT",
   "description": "Graded TypeScript coding exercises with tests, for getting back into hands-on coding before interviews.",
   "type": "module",
   "engines": {
