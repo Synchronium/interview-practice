@@ -104,6 +104,10 @@ All tests fail at first. That's expected.
 - **Use an AI assistant as a coach, not a solver.** Ask it for a hint rather
   than the answer, and once your tests pass, ask it to review your code and show
   an alternative solution.
+- **Autocomplete is off on purpose.** Interviews often use a plain editor, so
+  [`.vscode/settings.json`](.vscode/settings.json) disables suggestions, parameter hints
+  and AI completions in VS Code for this folder. Type errors and hover info
+  still work. Delete the file if you'd rather have autocomplete back.
 - **Start an exercise over** with `git checkout -- <file>`.
 - **Keep your work separate:** fork the repo, or commit your solutions on your own branch.
 
